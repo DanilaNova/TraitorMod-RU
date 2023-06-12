@@ -2,6 +2,7 @@
 if CLIENT then return end
 
 local path = table.pack(...)[1]
+local table_merge = dofile(path .. "/Lua/table_merge.lua")
 local russian = dofile(path .. "/Lua/language/russian.lua")
 
 local function translate()
@@ -10,13 +11,11 @@ local function translate()
     Traitormod.Config.Language = russian.Name
 
     -- Заменяем текст на переведённый
-    for key, value in pairs(russian) do
-        Traitormod.Language[key] = value
-    end
+	table_merge(Traitormod.Language, russian)
 end
 
 local function errortest(err)
-    print("[TraitormodRU]: "..err)
+    print("[TraitormodRU]: " .. err)
 end
 
 -- Ждём пока загрузяться все моды
