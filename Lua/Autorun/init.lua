@@ -15,16 +15,16 @@ local function translate()
     end
 end
 
-local function error_handler(err)
-    warn("[TraitormodRU]: "..err)
+local function errortest(err)
+    print("[TraitormodRU]: "..err)
 end
 
 -- Ждём пока загрузяться все моды
 Hook.Add("loaded", "TraitormodRU.translation", function ()
-    local status = xpcall(translate, error_handler)
+    local status = xpcall(translate, errortest)
     if status then
         print("[TraitormodRU]: Translation completed")
     else
-        warn("[TraitormodRU]: Translation interrupted")
+        print("[TraitormodRU]: Translation interrupted")
     end
 end)
