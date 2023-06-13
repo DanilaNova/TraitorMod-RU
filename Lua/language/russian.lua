@@ -275,7 +275,8 @@ language.PointshopRefunded = "Вам было возвращено %s очков
 
 
 language.Pointshop = {
-    choke = "Ожерелье (хз что это)",
+    choke = "Заклепка",
+    choke_desc = "‖color:gui.red‖Заставляет цель замолчать‖color:end‖",
     jailgrenade = "DarkRP тюремная граната",
     jailgrenade_desc = "‖color:gui.red‖ Особая граната с интересным сюрпризом...‖color:end‖",
     clowngearcrate = "Ящик клоунского снаряжения",
@@ -347,8 +348,10 @@ language.Pointshop = {
     medical = "Медицина",
     maintenance = "Обслуживание",
     other = "Разное",
+    fakehandcuffs = "потдельные наручники",
 }
 
+    language.FakeHandcuffsUsage = "Вы можете освободиться от наручников, используя !fhc"
     language.ShipTooCloseToWall = "Невозможно создать подлодку, позиция слишком близко к стене уровня."
     language.ShipTooCloseToShip = "Невозможно создать подлодку, позиция находится слишком близко к другой подводной лодке."
 
