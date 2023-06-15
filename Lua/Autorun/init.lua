@@ -11,7 +11,7 @@ local function translate()
     Traitormod.Config.Language = russian.Name
 
     -- Заменяем текст на переведённый
-	table_merge(Traitormod.Language, russian)
+	Traitormod.Language = table_merge(Traitormod.Language, russian)
 end
 
 local function errortest(err)
