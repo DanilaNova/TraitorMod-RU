@@ -19,7 +19,7 @@ language.Help = [[
 !helptraitor - показывает все команды для предателей
 !helpadmin - показывает все команды для администраторов
 !traitor - показывает информацию для предателя
-!pointshop - открывает магазин очков
+!pointshop - открывает магазин
 !points - показывает ваши очки и жизни
 !alive - показывает список живых игроков (только после смерти)
 !locatesub - показывает расстояние и направление подводной лодки, только для монстров и пиратов
@@ -244,7 +244,7 @@ language.Ignore = "Игнорировать"
 language.SecretSummary = "Задачи выполнены: %s - Очки получены: %s\n"
 language.SecretTraitorAssigned = "Вы были назначены предателем, проголосуйте, каким именно вы хотите быть."
 
-language.ItemsBought = "Предметы, купленные в магазине очков"
+language.ItemsBought = "Предметы, купленные в магазине"
 language.CrewBoughtItem = "Игроки купили предметы в магазине"
 language.PointsGained = "Общее количество набранных очков"
 language.PointsLost = "Общее количество потерянных очков"
@@ -259,7 +259,7 @@ language.Rounds = "Общая статистика раунда"
 language.Yes = "Да"
 language.No = "Нет"
 
-language.PointshopInGame = "Вы должны быть в игре, чтобы использовать магазин очков."
+language.PointshopInGame = "Вы должны быть в игре, чтобы использовать магазин."
 language.PointshopCannotBeUsed = "Этот товар нельзя использовать в данный момент."
 language.PointshopWait = "Вам придется подождать %s секунд, прежде чем вы сможете использовать этот продукт."
 language.PointshopNoPoints = "У вас недостаточно очков для покупки этого товара."
@@ -269,7 +269,7 @@ language.PointshopGoBack = ">> Вернуться назад <<"
 language.PointshopCancel = ">> Отменить <<"
 language.PointshopWishBuy = "Ваш текущий баланс: %s очков\nЧто вы хотите купить?"
 language.PointshopInstallation = "Продукт, который вы собираетесь купить, будет установлен в вашем точном месте, вы не сможете переместить его в другое место, хотите ли вы продолжить?\n"
-language.PointshopNotAvailable = "Магазин точек недоступен."
+language.PointshopNotAvailable = "Магазин недоступен."
 language.PointshopWishCategory = "Ваш текущий баланс: %s очков\nВыберите категорию."
 language.PointshopRefunded = "Вам было возвращено %s очков за покупку %s"
 
