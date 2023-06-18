@@ -1,10 +1,12 @@
----@module "Hook"
 if CLIENT then return end
 
 local modName = "Traitormod-RU"
 local path = table.pack(...)[1]
 local logToConsole = true
+
+---@module "table_merge"
 local table_merge = dofile(path .. "/Lua/table_merge.lua")
+---@module "russian"
 local russian = dofile(path .. "/Lua/language/russian.lua")
 
 ---Saves a message to log
@@ -33,6 +35,8 @@ local function translate()
 
     -- Заменяем текст на переведённый
 	Traitormod.Language = table_merge(Traitormod.Language, russian)
+
+    -- TODO: Надо как-то перевести задания выполненные по старой схеме, пока что хз как
 end
 
 local function errorlog(err)
